@@ -25,6 +25,9 @@
 .nav__list li:hover .nav__link{
   color: var(--green-1)
 }
+@media only screen and (max-width: 768px){
+  
+}
 
 /* Global Button styles  */
 .btn {
