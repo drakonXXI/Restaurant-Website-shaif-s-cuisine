@@ -26,7 +26,25 @@
   color: var(--green-1)
 }
 @media only screen and (max-width: 768px){
-  
+  .nav {
+    position: relative;
+
+  }
+  .nav__icon {
+    display: block;
+  }
+  .nav__icon svg,
+  .nav__close svg {
+    pointer-events: none;
+    height: 30px;
+    width: 30px;
+  }
+  .nav__close {
+    display: block;
+    position: absolute;
+    color: var(--black-1);
+    right: 1rem;
+  }
 }
 
 /* Global Button styles  */
